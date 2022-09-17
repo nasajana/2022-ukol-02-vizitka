@@ -1,6 +1,13 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
 
 /*
 BARVY:
@@ -14,4 +21,24 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+body {
+    font-size: 16px;
 
+    font-family: 'Nunito', sans-serif;
+
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.container {
+    width: 550px;
+    margin: auto;
+}
+
+.obrazek {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
